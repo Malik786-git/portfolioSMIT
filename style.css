@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.wrapped {
+    height: 100vh;
+    width: 100vw;
+    background: #161B22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 70%;
+    width: 90%;
+    background: #010409;
+    display: flex;
+}
+
+.navbar {
+    flex: 0.06;
+    background:#03350c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px;
+}
+
+figure {
+    flex: 0.5;
+    background: dodgerblue;
+    position: relative;
+}
+
+main {
+    flex: 1;
+    padding: 15px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu i{
+    margin: 5px 0px;
+}
+.bar, .download, .menu{
+  cursor: pointer;
+}
+figure img{
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: -45px;
+}
+.social-links{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.social a i{
+    color: white;
+}
+.services{
+    display: flex;
+}
+#myservice{
+    font-size: 40px;
+}
+.two i {
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #2EA043;
+}
+.two h4{
+   margin-bottom: 5px;
+}
